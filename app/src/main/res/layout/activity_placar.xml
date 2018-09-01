@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewmodelcomlivedata.PlacarActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/time_casa"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvCasa"
+        app:layout_constraintStart_toStartOf="@+id/tvCasa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/time_visitante"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvVisitante"
+        app:layout_constraintStart_toStartOf="@+id/tvVisitante"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvCasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="60dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:text="X"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvVisitante"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvCasa"
+        app:layout_constraintTop_toTopOf="@+id/tvVisitante" />
+
+    <TextView
+        android:id="@+id/tvVisitante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/bt3PontosCasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_3_pontos"
+        app:layout_constraintEnd_toStartOf="@+id/bt3PontosVisitante"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCasa" />
+
+    <Button
+        android:id="@+id/bt2PontosCasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_2_pontos"
+        app:layout_constraintEnd_toStartOf="@+id/bt2PontosVisitante"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt3PontosCasa" />
+
+    <Button
+        android:id="@+id/bt1PontoCasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_1_ponto"
+        app:layout_constraintEnd_toStartOf="@+id/bt1PontoVisitante"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt2PontosCasa" />
+
+    <Button
+        android:id="@+id/bt3PontosVisitante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/button_3_pontos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt3PontosCasa"
+        app:layout_constraintTop_toTopOf="@+id/bt3PontosCasa" />
+
+    <Button
+        android:id="@+id/bt2PontosVisitante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/button_2_pontos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt2PontosCasa"
+        app:layout_constraintTop_toTopOf="@+id/bt2PontosCasa" />
+
+    <Button
+        android:id="@+id/bt1PontoVisitante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/button_1_ponto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt1PontoCasa"
+        app:layout_constraintTop_toTopOf="@+id/bt1PontoCasa" />
+
+    <Button
+        android:id="@+id/btReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/button_reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt1PontoCasa" />
+</android.support.constraint.ConstraintLayout>

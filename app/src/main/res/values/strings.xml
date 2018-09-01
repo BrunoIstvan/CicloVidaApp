@@ -3,4 +3,10 @@
     <string name="label_placar_eletronico">Score</string>
     <string name="button_gol_casa">Goal Home</string>
     <string name="button_gol_visiting">Visiting Goal</string>
+    <string name="time_casa">Home</string>
+    <string name="time_visitante">Visiting</string>
+    <string name="button_3_pontos">3 Points</string>
+    <string name="button_2_pontos">2 Points</string>
+    <string name="button_1_ponto">1 Point</string>
+    <string name="button_reset">Reset</string>
 </resources>
