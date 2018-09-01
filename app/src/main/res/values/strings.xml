@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Ciclo de Vida</string>
+    <string name="label_placar_eletronico">Score</string>
+    <string name="button_gol_casa">Goal Home</string>
+    <string name="button_gol_visiting">Visiting Goal</string>
+</resources>

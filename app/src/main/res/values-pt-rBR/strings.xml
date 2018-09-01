@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ciclo de Vida</string>
+    <string name="label_placar_eletronico">Placar Eletrônico</string>
+    <string name="button_gol_casa">Gol Casa</string>
+    <string name="button_gol_visiting">Gol Visitante</string>
+</resources>
